@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED2F558A1E23654300A24201 /* SKChecklistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE16B911E0AC57100B1D0F3 /* SKChecklistController.swift */; };
+		ED2F558B1E23655500A24201 /* SKChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB10161E12CCF30052B0CE /* SKChecklistItem.swift */; };
+		ED2F558D1E23870900A24201 /* SKItemDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F558C1E23870900A24201 /* SKItemDetailController.swift */; };
+		ED2F558F1E252BAD00A24201 /* SKAllListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F558E1E252BAD00A24201 /* SKAllListController.swift */; };
+		ED2F55911E25353500A24201 /* SKChecklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F55901E25353500A24201 /* SKChecklist.swift */; };
+		ED2F55991E26182700A24201 /* SKListDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F55981E26182700A24201 /* SKListDetailController.swift */; };
+		ED2F559B1E26804A00A24201 /* SKDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F559A1E26804A00A24201 /* SKDataModel.swift */; };
+		ED2F559D1E278CA200A24201 /* SKIconPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F559C1E278CA200A24201 /* SKIconPickerController.swift */; };
+		ED5CC65C1E27E59000BF57E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5CC65B1E27E59000BF57E8 /* Assets.xcassets */; };
+		EDE16B801E0AC34A00B1D0F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE16B7F1E0AC34A00B1D0F3 /* AppDelegate.swift */; };
+		EDE16B851E0AC34A00B1D0F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE16B831E0AC34A00B1D0F3 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED2F558C1E23870900A24201 /* SKItemDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SKItemDetailController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ED2F558E1E252BAD00A24201 /* SKAllListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SKAllListController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ED2F55901E25353500A24201 /* SKChecklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKChecklist.swift; sourceTree = "<group>"; };
+		ED2F55981E26182700A24201 /* SKListDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKListDetailController.swift; sourceTree = "<group>"; };
+		ED2F559A1E26804A00A24201 /* SKDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SKDataModel.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ED2F559C1E278CA200A24201 /* SKIconPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKIconPickerController.swift; sourceTree = "<group>"; };
+		ED5CC65B1E27E59000BF57E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE16B7C1E0AC34A00B1D0F3 /* SKChecklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKChecklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE16B7F1E0AC34A00B1D0F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EDE16B841E0AC34A00B1D0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDE16B8B1E0AC34A00B1D0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE16B911E0AC57100B1D0F3 /* SKChecklistController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SKChecklistController.swift; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EDFB10161E12CCF30052B0CE /* SKChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SKChecklistItem.swift; sourceTree = SOURCE_ROOT; usesTabs = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE16B791E0AC34A00B1D0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED2F55921E25354100A24201 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F55901E25353500A24201 /* SKChecklist.swift */,
+				ED2F559A1E26804A00A24201 /* SKDataModel.swift */,
+				EDFB10161E12CCF30052B0CE /* SKChecklistItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ED2F55931E25354D00A24201 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F558E1E252BAD00A24201 /* SKAllListController.swift */,
+				EDE16B911E0AC57100B1D0F3 /* SKChecklistController.swift */,
+				ED2F55981E26182700A24201 /* SKListDetailController.swift */,
+				ED2F558C1E23870900A24201 /* SKItemDetailController.swift */,
+				ED2F559C1E278CA200A24201 /* SKIconPickerController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EDE16B731E0AC34A00B1D0F3 = {
+			isa = PBXGroup;
+			children = (
+				EDE16B7E1E0AC34A00B1D0F3 /* SKChecklist */,
+				EDE16B7D1E0AC34A00B1D0F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE16B7D1E0AC34A00B1D0F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE16B7C1E0AC34A00B1D0F3 /* SKChecklist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE16B7E1E0AC34A00B1D0F3 /* SKChecklist */ = {
+			isa = PBXGroup;
+			children = (
+				EDE16B7F1E0AC34A00B1D0F3 /* AppDelegate.swift */,
+				ED2F55921E25354100A24201 /* Model */,
+				ED2F55931E25354D00A24201 /* Controllers */,
+				EDE16B831E0AC34A00B1D0F3 /* Main.storyboard */,
+				ED5CC65B1E27E59000BF57E8 /* Assets.xcassets */,
+				EDE16B8B1E0AC34A00B1D0F3 /* Info.plist */,
+			);
+			path = SKChecklist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE16B7B1E0AC34A00B1D0F3 /* SKChecklist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE16B8E1E0AC34A00B1D0F3 /* Build configuration list for PBXNativeTarget "SKChecklist" */;
+			buildPhases = (
+				EDE16B781E0AC34A00B1D0F3 /* Sources */,
+				EDE16B791E0AC34A00B1D0F3 /* Frameworks */,
+				EDE16B7A1E0AC34A00B1D0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKChecklist;
+			productName = SKChecklist;
+			productReference = EDE16B7C1E0AC34A00B1D0F3 /* SKChecklist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE16B741E0AC34A00B1D0F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SK;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kirill;
+				TargetAttributes = {
+					EDE16B7B1E0AC34A00B1D0F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CCQNGK4U39;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDE16B771E0AC34A00B1D0F3 /* Build configuration list for PBXProject "SKChecklist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE16B731E0AC34A00B1D0F3;
+			productRefGroup = EDE16B7D1E0AC34A00B1D0F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE16B7B1E0AC34A00B1D0F3 /* SKChecklist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE16B7A1E0AC34A00B1D0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5CC65C1E27E59000BF57E8 /* Assets.xcassets in Resources */,
+				EDE16B851E0AC34A00B1D0F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE16B781E0AC34A00B1D0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2F558F1E252BAD00A24201 /* SKAllListController.swift in Sources */,
+				ED2F55991E26182700A24201 /* SKListDetailController.swift in Sources */,
+				ED2F559D1E278CA200A24201 /* SKIconPickerController.swift in Sources */,
+				ED2F558A1E23654300A24201 /* SKChecklistController.swift in Sources */,
+				EDE16B801E0AC34A00B1D0F3 /* AppDelegate.swift in Sources */,
+				ED2F558D1E23870900A24201 /* SKItemDetailController.swift in Sources */,
+				ED2F559B1E26804A00A24201 /* SKDataModel.swift in Sources */,
+				ED2F55911E25353500A24201 /* SKChecklist.swift in Sources */,
+				ED2F558B1E23655500A24201 /* SKChecklistItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDE16B831E0AC34A00B1D0F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE16B841E0AC34A00B1D0F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDE16B8C1E0AC34A00B1D0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDE16B8D1E0AC34A00B1D0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE16B8F1E0AC34A00B1D0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CCQNGK4U39;
+				INFOPLIST_FILE = SKChecklist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kirillio.SKChecklist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EDE16B901E0AC34A00B1D0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CCQNGK4U39;
+				INFOPLIST_FILE = SKChecklist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kirillio.SKChecklist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE16B771E0AC34A00B1D0F3 /* Build configuration list for PBXProject "SKChecklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE16B8C1E0AC34A00B1D0F3 /* Debug */,
+				EDE16B8D1E0AC34A00B1D0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE16B8E1E0AC34A00B1D0F3 /* Build configuration list for PBXNativeTarget "SKChecklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE16B8F1E0AC34A00B1D0F3 /* Debug */,
+				EDE16B901E0AC34A00B1D0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE16B741E0AC34A00B1D0F3 /* Project object */;
+}
